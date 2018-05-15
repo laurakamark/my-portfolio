@@ -1,0 +1,164 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about {
+    height: 200px;
+}
+#work, #contact {
+    height: 245px;
+}
+#footer{
+    height: 80px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: auto 25px;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 330px;
+    float: left;
+    padding: 25px;
+}
+/***** Header *****/
+header {
+    height: 0px;
+}
+
+header h1 { 
+    padding: 50px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color:#77a466;
+    text-transform: uppercase;
+}
+nav {
+    float: right; 
+    padding: 75px 0px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size: 14px;
+    color: #77a466;
+    padding-left: 25px; 
+}
+header h2 {
+    widows: 1000px; 
+    clear: both; 
+    font-family:'Lora', serif;
+    font-size: 72px; 
+    line-height: 80px;
+    color:#9b9b9b;
+    padding: 20px 0;
+}
+header h1 span {
+    color: #2b2b2b;
+}
+
+
+/***** Cover Image ****/
+img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+    background-size: cover;
+    margin: 0 25px;
+}
+/***** About *****/
+#about .full-width {
+    padding: 30px 0;
+}
+
+#about h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #77a466;
+}
+
+#about p {
+    font-size: 18px;
+    color:#2b2b2b;
+    line-height: 23px;
+    padding-right: 50px;
+}
+
+/***** Work Section *****/
+
+#work {
+    text-align: left;
+    border-top: 1px solid #77a466;
+    border-bottom: 1px solid #77a466;
+}
+
+#work li {
+    color: #77a466;
+}
+#work ul {
+    list-style: none;
+}
+#work h3 {
+    font-size: 12px;
+    line-height: 25px;
+    width: 190px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+ 
+#work p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+#reviews {
+    border-left: 1px solid #77a466;
+    border-right: 1px solid #77a466;
+
+}
+#reviews p{
+    line-height: 21px;
+}
+#specials p{
+    color:#77a466;  
+    line-height: 28px; 
+}
+
+#contact p{  
+    line-height: 24px; 
+}
+/***** Footer Section *****/
+
+#footer .full-width {
+    padding: 50px 0;
+}
+
+#footer h2 span{
+    font-family: 'Dancing Script', cursive;
+    color: #77a466;
+    text-transform: none;
+}
+
+#footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
